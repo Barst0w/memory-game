@@ -4,6 +4,13 @@ body {
     margin: 0;
     font-size: 62.5%;
     font-family: 'Roboto';
+    background-color: lightskyblue;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+   margin-top: 5%;
 }
 
 #scoreboard {
@@ -22,6 +29,7 @@ body {
     grid-row: 1 / 1;
     background-color: coral;
     font-size: 1.3em;
+    padding: 0.5rem;
 }
 
 #score {
@@ -30,7 +38,7 @@ body {
     grid-column: 2 / 2;
     grid-row: 2 / 2;
     background-color: coral;
-    padding-top: 1rem;
+    padding: 1rem;
     font-size: 1.2em;
 }
 
@@ -69,3 +77,6 @@ body {
     background-color: lightpink;
 }
 
+img {
+    height: 3em;
+}

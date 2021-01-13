@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable no-const-assign */
 /* eslint-disable no-self-assign */
 /* eslint-disable no-console */
@@ -11,9 +12,36 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable react/prop-types */
-import React from 'react';
 
-const mixedArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+import React from 'react';
+import cheeseImg from './img/cheese.png';
+import spamImg from './img/spam.png';
+import eggImg from './img/egg.png';
+import sushiImg from './img/sushi.png';
+import pizzaImg from './img/pizza.png';
+import watermelonImg from './img/watermelon.png';
+import beefImg from './img/beef.png';
+import cakeImg from './img/cake.png';
+import carrotImg from './img/carrot.png';
+import fishImg from './img/fish.png';
+import wineImg from './img/wine.png';
+import cherryImg from './img/cherry.png';
+
+const mixedArr = [
+<img src={cheeseImg} />, 
+<img src={spamImg} />, 
+<img src={eggImg} />, 
+<img src={sushiImg} />, 
+<img src={pizzaImg} />, 
+<img src={watermelonImg} />, 
+<img src={beefImg} />, 
+<img src={cakeImg} />, 
+<img src={carrotImg} />, 
+<img src={fishImg} />, 
+<img src={wineImg} />, 
+<img src={cherryImg} />,
+];
+
 let clickedItems = [];
 function Cards(props) {
     function shuffleArray(array) {
